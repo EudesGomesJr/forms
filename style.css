@@ -4,6 +4,7 @@
 
 #google-form {
     background-color: #333;
+    padding: 20px;
 }
 
 #google-form form {
@@ -30,3 +31,40 @@
     width: 100%;
     cursor: pointer;
 }
+
+/* REGISTER FORM*/
+.register-form {
+    padding: 50PX;
+  }  
+
+.register-form form {
+    width: 500px;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+.register-form label {
+    display: block;
+}
+
+.input-inline {
+    display: flex;
+}
+
+.input-inline input {
+    display: none;
+}
+
+.input-inline label {
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    margin: 5px;
+}
+
+/* Elementos irmãos que estão no mesmo nível*/
+.input-inline input:checked + label {
+    background-color: red;
+}
+
